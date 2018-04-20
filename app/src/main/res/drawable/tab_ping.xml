@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_ping" android:state_selected="true">
+
+    </item>
+    <item android:drawable="@drawable/ic_terminal" android:state_selected="false">
+    </item>
+    <!--color_false :#607d8b-->
+    <!--color_false :cplor_primary-->
+    <!--size:32dp-->
+    <!--padding :0dp-->
+</selector>

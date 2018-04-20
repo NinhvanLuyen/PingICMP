@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PingICMP</string>
+    <string name="action_settings">Settings</string>
+    <string name="tag">tag</string>
+    <string name="stop">Stop</string>
+    <string name="buttonx">..</string>
+    <string name="clear">Clear</string>
+    <string name="text">
+        <b style="color:#FF4081">%s</b> : %s
+    </string>
+    <array name="title">
+        <item>Ping</item>
+        <item>Termial</item>
+    </array>
+</resources>

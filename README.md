@@ -1,5 +1,5 @@
 # PingICMP
-```
+``` ruby
    Observable<ItemPing> getData = Observable.create(sub -> {
             Process p;
             p = new ProcessBuilder("sh").redirectErrorStream(true).start();

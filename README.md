@@ -6,10 +6,10 @@
             DataOutputStream os = new DataOutputStream(p.getOutputStream());
             os.writeBytes("ping -c 3 " + host + '\n');
             os.flush();
-// Close the terminal
+            // Close the terminal
             os.writeBytes("exit\n");
             os.flush();
-// read ping replys
+            // read ping replys
             BufferedReader reader = new BufferedReader(new InputStreamReader(p.getInputStream()));
             String line;
             while ((line = reader.readLine()) != null) {
